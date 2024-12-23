@@ -61,7 +61,7 @@ const Index = () => {
                 <MapPin className="w-6 h-6 text-primary" />
                 <div>
                   <h3 className="font-medium text-gray-900">Adresse</h3>
-                  <p className="text-gray-700">Pluneret et Vannes</p>
+                  <p className="text-gray-700">2 Rue Loïc Caradec, 56400 Pluneret</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
@@ -97,11 +97,17 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            <div className="bg-gray-100 rounded-lg h-[400px]">
-              {/* Placeholder for Google Maps */}
-              <div className="w-full h-full rounded-lg bg-gray-200 flex items-center justify-center">
-                Carte Google Maps
-              </div>
+            <div className="h-[400px] w-full rounded-lg overflow-hidden">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2687.7897332653164!2d-2.952492723394815!3d47.66521668529276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48101c1b8a6585e5%3A0x3b9b1914f96c1b46!2s2%20Rue%20Lo%C3%AFc%20Caradec%2C%2056400%20Pluneret!5e0!3m2!1sfr!2sfr!4v1710799027252!5m2!1sfr!2sfr"
+                width="100%"
+                height="100%"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="rounded-lg"
+              ></iframe>
             </div>
           </div>
         </div>
