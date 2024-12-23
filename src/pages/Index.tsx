@@ -2,8 +2,11 @@ import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import { Button } from "@/components/ui/button";
 import { MapPin, Mail, Phone, Calendar } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const Index = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="min-h-screen">
       <Header />
@@ -32,8 +35,9 @@ const Index = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {services.map((service) => (
               <div
-                key={service.title}
-                className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-all"
+                key={service.id}
+                className="bg-white p-8 rounded-lg shadow-sm hover:shadow-md transition-all cursor-pointer"
+                onClick={() => navigate(`/services/${service.id}`)}
               >
                 <h3 className="text-xl font-serif font-medium text-gray-900 mb-4">
                   {service.title}
@@ -108,26 +112,32 @@ const Index = () => {
 
 const services = [
   {
+    id: "reeducation-perineale",
     title: "Rééducation périnéale",
     description: "Accompagnement personnalisé pour la rééducation du périnée, adapté à vos besoins spécifiques.",
   },
   {
+    id: "preparation-accouchement",
     title: "Préparation à l'accouchement",
     description: "Séances individuelles pour vous préparer sereinement à l'accouchement.",
   },
   {
+    id: "suivi-post-partum",
     title: "Suivi post-partum",
     description: "Accompagnement et soins adaptés pour une récupération optimale après l'accouchement.",
   },
   {
+    id: "reeducation-abdominale",
     title: "Rééducation abdominale",
     description: "Programmes sur mesure pour retrouver tonicité et bien-être.",
   },
   {
+    id: "consultation-perineale",
     title: "Consultation périnéale",
     description: "Bilan complet et conseils personnalisés pour votre santé périnéale.",
   },
   {
+    id: "soins-deconventionnes",
     title: "Soins déconventionnés",
     description: "Approche globale et personnalisée pour des soins spécifiques.",
   },
