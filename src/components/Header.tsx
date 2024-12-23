@@ -36,7 +36,7 @@ const Header = () => {
               className="bg-primary hover:bg-primary/90 text-primary-foreground"
             >
               <a
-                href="https://www.doctolib.fr"
+                href="https://www.doctolib.fr/masseur-kinesitherapeute/rennes/camille-mazzolini-rennes"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -75,7 +75,7 @@ const Header = () => {
                 className="w-full bg-primary hover:bg-primary/90 text-primary-foreground mt-4"
               >
                 <a
-                  href="https://www.doctolib.fr"
+                  href="https://www.doctolib.fr/masseur-kinesitherapeute/rennes/camille-mazzolini-rennes"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
