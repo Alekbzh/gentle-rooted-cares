@@ -60,8 +60,9 @@ const Index = () => {
               <div className="flex items-start space-x-4">
                 <MapPin className="w-6 h-6 text-primary" />
                 <div>
-                  <h3 className="font-medium text-gray-900">Adresse</h3>
+                  <h3 className="font-medium text-gray-900">Adresses</h3>
                   <p className="text-gray-700">2 Rue Loïc Caradec, 56400 Pluneret</p>
+                  <p className="text-gray-700">10 Rue Docteur Joseph Audic, 56000 Vannes</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
