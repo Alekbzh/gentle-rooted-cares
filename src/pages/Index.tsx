@@ -68,7 +68,7 @@ const Index = () => {
                 <Phone className="w-6 h-6 text-primary" />
                 <div>
                   <h3 className="font-medium text-gray-900">Téléphone</h3>
-                  <p className="text-gray-700">+33 6 XX XX XX XX</p>
+                  <p className="text-gray-700">07 80 98 74 43</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
