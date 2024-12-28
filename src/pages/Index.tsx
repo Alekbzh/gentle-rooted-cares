@@ -76,7 +76,7 @@ const Index = () => {
                 <Mail className="w-6 h-6 text-primary" />
                 <div>
                   <h3 className="font-medium text-gray-900">Email</h3>
-                  <p className="text-gray-700">camille.mazzolini@gmail.fr</p>
+                  <p className="text-gray-700">camille.mazzolini@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
