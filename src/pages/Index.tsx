@@ -124,11 +124,6 @@ const services = [
     description: "Accompagnement personnalisé pour la rééducation du périnée, adapté à vos besoins spécifiques.",
   },
   {
-    id: "preparation-accouchement",
-    title: "Préparation à l'accouchement",
-    description: "Séances individuelles pour vous préparer sereinement à l'accouchement.",
-  },
-  {
     id: "suivi-post-partum",
     title: "Suivi post-partum",
     description: "Accompagnement et soins adaptés pour une récupération optimale après l'accouchement.",
@@ -137,11 +132,6 @@ const services = [
     id: "reeducation-abdominale",
     title: "Rééducation abdominale",
     description: "Programmes sur mesure pour retrouver tonicité et bien-être.",
-  },
-  {
-    id: "consultation-perineale",
-    title: "Consultation périnéale",
-    description: "Bilan complet et conseils personnalisés pour votre santé périnéale.",
   },
   {
     id: "soins-deconventionnes",
