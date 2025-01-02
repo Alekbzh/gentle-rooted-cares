@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://camille-mazzolini.lovable.dev/sitemap.xml
+Sitemap: https://camillemazzolini.com/sitemap.xml
