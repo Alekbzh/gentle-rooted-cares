@@ -79,7 +79,14 @@ Pourquoi consulter un kinésithérapeute spécialisé :
 
 En quoi consiste la rééducation ?
 
-La rééducation périnéale par un kinésithérapeute vise à renforcer, assouplir ou rééduquer les muscles du plancher pelvien (le périnée), situés entre le pubis et le coccyx. Ces muscles jouent un rôle clé dans la continence urinaire et anale, le soutien des organes pelviens et la fonction sexuelle. Cette rééducation est particulièrement recommandée après un accouchement, mais elle peut aussi être utile dans d’autres contextes tout au long de la vie d’une femme, comme l’incontinence, les prolapsus ou les douleurs pelviennes.`,
+La rééducation périnéale par un kinésithérapeute vise à renforcer, assouplir ou rééduquer les muscles du plancher pelvien (le périnée), situés entre le pubis et le coccyx. Ces muscles jouent un rôle clé dans la continence urinaire et anale, le soutien des organes pelviens et la fonction sexuelle. Cette rééducation est particulièrement recommandée après un accouchement, mais elle peut aussi être utile dans d’autres contextes tout au long de la vie d’une femme, comme l’incontinence, les prolapsus ou les douleurs pelviennes.
+
+Déroulement de la rééducation périnéale :
+
+La rééducation commence par un bilan afin d’évaluer la problématique et les objectifs de la patiente.
+Cela peut inclure l’évaluation de symptômes, l’utilisation de questionnaires et un examen clinique pour évaluer le périnée.
+Selon le bilan il peut être nécessaire d’utiliser une sonde intracavitaire permettant l’utilisation de techniques comme le biofeedback ou l’electrostimulation. 
+Les autres techniques peuvent être du massage, des étirements, l’utilisation de techniques respiratoires ou d’exercices spécifiques permettant le contrôle postural de la continence et du périnée`,
 },  
   {
     id: "reeducation-post-partum",
