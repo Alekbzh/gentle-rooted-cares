@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import { useParams, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
+import ReactMarkdown from "react-markdown";
 
 const Service = () => {
   const { serviceId } = useParams();
