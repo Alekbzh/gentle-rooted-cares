@@ -121,13 +121,13 @@ const Index = () => {
 
 const services = [
   {
-    id: "reeducation-perineale",
-    title: "Rééducation périnéale",
+    id: "reeducation-abdomino-perineale",
+    title: "Rééducation abdomino-périnéale",
     description: "Accompagnement personnalisé pour la rééducation du périnée, adapté à vos besoins spécifiques.",
   },
   {
-    id: "suivi-post-partum",
-    title: "Suivi post-partum",
+    id: "reeducation-post-partum",
+    title: "Rééducation du post-partum",
     description: "Accompagnement et soins adaptés pour une récupération optimale après l'accouchement.",
   },
   {
