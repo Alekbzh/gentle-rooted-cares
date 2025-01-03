@@ -63,15 +63,7 @@ const services = [
     id: "reeducation-post-partum",
     title: "Rééducation du post-partum",
     description: "Accompagnement et soins adaptés pour une récupération optimale après l'accouchement.",
-    fullDescription: `Le suivi post-partum est crucial pour une bonne récupération après l'accouchement. Notre accompagnement comprend :
-
-    • Une évaluation complète de votre état physique
-    • La rééducation du périnée et des abdominaux
-    • Des conseils pour la reprise d'activité
-    • Un soutien pour l'allaitement si nécessaire
-    • Des exercices adaptés à pratiquer à domicile
-
-    Notre objectif est de vous aider à retrouver votre forme et votre confiance en douceur.`,
+    fullDescription: `En cours`,
   },
   {
     id: "soins-bien-etre",
