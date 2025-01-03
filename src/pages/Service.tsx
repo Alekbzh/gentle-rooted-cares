@@ -74,12 +74,12 @@ Pourquoi consulter un kinésithérapeute spécialisé :
 - Imperiosités urinaires et fécales
 - Incontinence anale
 - Troubles de la statique pelvienne (descente d’organe et pesanteur pelvienne)
-- Douleurs pelviennes ( dyspareunies, vaginisme, vulvodynies, endométriose)
+- Douleurs pelviennes (dyspareunies, vaginisme, vulvodynies, endométriose)
 - Diastasis des grands droits
 
 En quoi consiste la rééducation ?
 
-La rééducation périnéale par un kinésithérapeute vise à renforcer, assouplir ou rééduquer les muscles du plancher pelvien (le périnée), situés entre le pubis et le coccyx. Ces muscles jouent un rôle clé dans la continence urinaire et anale, le soutien des organes pelviens et la fonction sexuelle. Cette rééducation est particulièrement recommandée après un accouchement, mais elle peut aussi être utile dans d’autres contextes tout au long de la vie d’une femme, comme l’incontinence, les prolapsus ou les douleurs pelviennes.',
+La rééducation périnéale par un kinésithérapeute vise à renforcer, assouplir ou rééduquer les muscles du plancher pelvien (le périnée), situés entre le pubis et le coccyx. Ces muscles jouent un rôle clé dans la continence urinaire et anale, le soutien des organes pelviens et la fonction sexuelle. Cette rééducation est particulièrement recommandée après un accouchement, mais elle peut aussi être utile dans d’autres contextes tout au long de la vie d’une femme, comme l’incontinence, les prolapsus ou les douleurs pelviennes.`,
 },  
   {
     id: "reeducation-post-partum",
