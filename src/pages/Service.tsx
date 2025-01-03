@@ -45,6 +45,7 @@ const Service = () => {
             {service.title}
           </h1>
           <div className="prose prose-lg max-w-none">
+            {service.fullDescription}
           </div>
         </article>
       </main>
