@@ -2,7 +2,7 @@ import Header from "@/components/Header";
 import { useParams, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
-import ReactMarkdown from "react-markdown";
+#import ReactMarkdown from "react-markdown";
 
 const Service = () => {
   const { serviceId } = useParams();
@@ -46,7 +46,6 @@ const Service = () => {
             {service.title}
           </h1>
           <div className="prose prose-lg max-w-none">
-            <ReactMarkdown>{service.fullDescription}</ReactMarkdown>
           </div>
         </article>
       </main>
