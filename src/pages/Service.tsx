@@ -143,4 +143,20 @@ const services = [
   },
 ];
 
+
+const ServiceList = () => {
+  return (
+    <div>
+      {services.map((service) => (
+        <div key={service.id} className="mb-8">
+          <h2 className="text-xl font-bold mb-4">{service.title}</h2>
+          <ReactMarkdown>{service.fullDescription}</ReactMarkdown>
+        </div>
+      ))}
+    </div>
+  );
+};
+
+export default ServiceList;
+
 export default Service;
