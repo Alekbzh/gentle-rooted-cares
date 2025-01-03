@@ -58,16 +58,29 @@ const services = [
     id: "reeducation-abdomino-perineale",
     title: "Rééducation abdomino-périnéale",
     description: "Accompagnement personnalisé pour la rééducation du périnée, adapté à vos besoins spécifiques.",
-    fullDescription: `La rééducation périnéale est essentielle pour maintenir la santé et le bon fonctionnement du plancher pelvien. Cette thérapie est particulièrement recommandée :
+    fullDescription:`A qui s’adresse la rééducation périnéale ?
 
-    • Après un accouchement
-    • En cas d'incontinence urinaire
-    • Pour prévenir ou traiter le prolapsus
-    • Pour améliorer le confort et la qualité de vie
+La rééducation périnéale s’adresse principalement aux personnes ayant besoin de renforcer ou de restaurer la fonction musculaire du périnée.
+Elle concerne particulièrement :
+- Les femmes  en post-partum 
+- Les femmes en période de ménopause 
+- Les personnes souffrant d’incontinence urinaire ou fécale 
+- Les hommes après une chirurgie de la prostate 
+- Les personnes avec des douleurs pelviennes ou périnéales
 
-    Le traitement est personnalisé et adapté à chaque patient, utilisant des techniques manuelles et des exercices spécifiques pour renforcer les muscles du périnée.`,
-  },
-  
+Pourquoi consulter un kinésithérapeute spécialisé :
+
+- Incontinence urinaire 
+- Imperiosités urinaires et fécales
+- Incontinence anale
+- Troubles de la statique pelvienne (descente d’organe et pesanteur pelvienne)
+- Douleurs pelviennes ( dyspareunies, vaginisme, vulvodynies, endométriose)
+- Diastasis des grands droits
+
+En quoi consiste la rééducation ?
+
+La rééducation périnéale par un kinésithérapeute vise à renforcer, assouplir ou rééduquer les muscles du plancher pelvien (le périnée), situés entre le pubis et le coccyx. Ces muscles jouent un rôle clé dans la continence urinaire et anale, le soutien des organes pelviens et la fonction sexuelle. Cette rééducation est particulièrement recommandée après un accouchement, mais elle peut aussi être utile dans d’autres contextes tout au long de la vie d’une femme, comme l’incontinence, les prolapsus ou les douleurs pelviennes.',
+},  
   {
     id: "reeducation-post-partum",
     title: "Rééducation du post-partum",
