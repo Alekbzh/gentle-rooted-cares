@@ -31,7 +31,7 @@ const Hero = () => {
               variant="outline"
               className="border-primary hover:bg-primary/10"
             >
-              <a href="#soins">Découvrir mes soins</a>
+              <a href="#service">Découvrir mes soins</a>
             </Button>
           </div>
         </div>
