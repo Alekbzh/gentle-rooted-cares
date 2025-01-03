@@ -11,22 +11,6 @@ const Index = () => {
     <div className="min-h-screen">
       <Header />
       <Hero />
-      
-      {/* About Section */}
-      <section id="about" className="py-24 bg-white">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl sm:text-4xl font-serif font-medium text-gray-900 mb-8">
-              À propos
-            </h2>
-            <p className="text-lg text-gray-700 mb-8">
-            Camille Mazzolini, masseur-kinésithérapeute diplômée d’État, spécialisée en pelvi-périnéologie.<br /> Ce domaine m’a passionnée dès le début de ma carrière, et il est rapidement devenu le cœur de mon orientation professionnelle.<br />
-            Afin d’approfondir mes compétences, j’ai suivi plusieurs formations spécialisées en pelvi-périnéologie, tout en élargissant ma prise en charge à une approche plus globale.<br /> J’intègre notamment le complexe lombo-abdomino-pelvien et m’appuie sur les bienfaits du yoga, tant sur le plan physique, à travers les postures (asanas), que psychique, pour une gestion améliorée des douleurs lombo-pelviennes.<br />
-            J’ai à cœur d’accompagner les femmes dans leur rééducation périnéale, leur bien-être global et leur retour au sport, en leur proposant un suivi personnalisé et bienveillant.
-            </p>
-          </div>
-        </div>
-      </section>
 
       {/* Services Section */}
       <section id="soins" className="py-24 bg-secondary/20">
@@ -47,6 +31,22 @@ const Index = () => {
                 <p className="text-gray-700 mb-4">{service.description}</p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* About Section */}
+      <section id="about" className="py-24 bg-white">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="text-3xl sm:text-4xl font-serif font-medium text-gray-900 mb-8">
+              À propos
+            </h2>
+            <p className="text-lg text-gray-700 mb-8">
+            Camille Mazzolini, masseur-kinésithérapeute diplômée d’État, spécialisée en pelvi-périnéologie.<br /> Ce domaine m’a passionnée dès le début de ma carrière, et il est rapidement devenu le cœur de mon orientation professionnelle.<br />
+            Afin d’approfondir mes compétences, j’ai suivi plusieurs formations spécialisées en pelvi-périnéologie, tout en élargissant ma prise en charge à une approche plus globale.<br /> J’intègre notamment le complexe lombo-abdomino-pelvien et m’appuie sur les bienfaits du yoga, tant sur le plan physique, à travers les postures (asanas), que psychique, pour une gestion améliorée des douleurs lombo-pelviennes.<br />
+            J’ai à cœur d’accompagner les femmes dans leur rééducation périnéale, leur bien-être global et leur retour au sport, en leur proposant un suivi personnalisé et bienveillant.
+            </p>
           </div>
         </div>
       </section>
