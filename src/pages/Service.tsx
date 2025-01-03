@@ -58,7 +58,7 @@ const services = [
     id: "reeducation-abdomino-perineale",
     title: "Rééducation abdomino-périnéale",
     description: "Accompagnement personnalisé pour la rééducation du périnée, adapté à vos besoins spécifiques.",
-    fullDescription:`A qui s’adresse la rééducation périnéale ?
+    fullDescription:`<strong>A qui s’adresse la rééducation périnéale ?</strong>
 
 La rééducation périnéale s’adresse principalement aux personnes ayant besoin de renforcer ou de restaurer la fonction musculaire du périnée.
 Elle concerne particulièrement :
@@ -68,7 +68,7 @@ Elle concerne particulièrement :
 - Les hommes après une chirurgie de la prostate 
 - Les personnes avec des douleurs pelviennes ou périnéales
 
-Pourquoi consulter un kinésithérapeute spécialisé :
+<strong>Pourquoi consulter un kinésithérapeute spécialisé :</strong>
 
 - Incontinence urinaire 
 - Imperiosités urinaires et fécales
@@ -77,11 +77,11 @@ Pourquoi consulter un kinésithérapeute spécialisé :
 - Douleurs pelviennes (dyspareunies, vaginisme, vulvodynies, endométriose)
 - Diastasis des grands droits
 
-En quoi consiste la rééducation ?
+<strong>En quoi consiste la rééducation ?</strong>
 
 La rééducation périnéale par un kinésithérapeute vise à renforcer, assouplir ou rééduquer les muscles du plancher pelvien (le périnée), situés entre le pubis et le coccyx. Ces muscles jouent un rôle clé dans la continence urinaire et anale, le soutien des organes pelviens et la fonction sexuelle. Cette rééducation est particulièrement recommandée après un accouchement, mais elle peut aussi être utile dans d’autres contextes tout au long de la vie d’une femme, comme l’incontinence, les prolapsus ou les douleurs pelviennes.
 
-Déroulement de la rééducation périnéale :
+<strong>Déroulement de la rééducation périnéale :</strong>
 
 La rééducation commence par un bilan afin d’évaluer la problématique et les objectifs de la patiente.
 Cela peut inclure l’évaluation de symptômes, l’utilisation de questionnaires et un examen clinique pour évaluer le périnée.
