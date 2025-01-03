@@ -157,6 +157,4 @@ const ServiceList = () => {
   );
 };
 
-export default ServiceList;
-
 export default Service;
