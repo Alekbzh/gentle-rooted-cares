@@ -10,7 +10,7 @@ const Hero = () => {
             Kinésithérapeute
           </h1>
           <p className="text-xl text-teal-600 mb-12">
-            rééducation en pelvi-périnéologie
+            Rééducation en pelvi-périnéologie
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
