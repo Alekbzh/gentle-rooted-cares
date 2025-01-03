@@ -131,14 +131,19 @@ const services = [
     description: "Accompagnement et soins adaptés pour une récupération optimale après l'accouchement.",
   },
   {
-    id: "reeducation-abdominale",
-    title: "Rééducation abdominale",
-    description: "Programmes sur mesure pour retrouver tonicité et bien-être.",
+    id: "soins-bien-etre",
+    title: "Soins bien-être",
+    description: "Des soins personnalisés pour votre bien-être physique et mental, dans une approche globale et bienveillante.",
   },
   {
-    id: "soins-deconventionnes",
-    title: "Soins déconventionnés",
-    description: "Approche globale et personnalisée pour des soins spécifiques.",
+    id: "yoga",
+    title: "Yoga",
+    description: "Séances de yoga adaptées à vos besoins, alliant postures, respiration et relaxation pour un équilibre corps-esprit.",
+  },
+  {
+    id: "reeducation-cancer-sein",
+    title: "Rééducation après le cancer du sein",
+    description: "Accompagnement spécialisé pour la rééducation post-cancer du sein, avec une approche douce et personnalisée.",
   },
 ];
 
