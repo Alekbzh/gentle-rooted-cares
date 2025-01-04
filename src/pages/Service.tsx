@@ -3,7 +3,6 @@ import { useParams, useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowLeft } from "lucide-react";
 
-
 const Service = () => {
   const { serviceId } = useParams();
   const navigate = useNavigate();
@@ -60,15 +59,15 @@ const services = [
     title: "Rééducation abdomino-périnéale",
     fullDescription: (
       <>
-        <h3>À qui s’adresse la rééducation périnéale ?</h3>
+        <h3>À qui s'adresse la rééducation périnéale ?</h3>
         <p>
-          La rééducation périnéale s’adresse principalement aux personnes ayant
+          La rééducation périnéale s'adresse principalement aux personnes ayant
           besoin de renforcer ou de restaurer la fonction musculaire du périnée.
         </p>
         <ul>
           <li>Les femmes en post-partum</li>
           <li>Les femmes en période de ménopause</li>
-          <li>Les personnes souffrant d’incontinence urinaire ou fécale</li>
+          <li>Les personnes souffrant d'incontinence urinaire ou fécale</li>
           <li>Les hommes après une chirurgie de la prostate</li>
           <li>Les personnes avec des douleurs pelviennes ou périnéales</li>
         </ul>
@@ -79,7 +78,7 @@ const services = [
           <li>Impériosités urinaires et fécales</li>
           <li>Incontinence anale</li>
           <li>
-            Troubles de la statique pelvienne (descente d’organe et pesanteur
+            Troubles de la statique pelvienne (descente d'organe et pesanteur
             pelvienne)
           </li>
           <li>
@@ -103,25 +102,25 @@ const services = [
         </ul>
         <p>
           Cette rééducation est particulièrement recommandée après un
-          accouchement, mais elle peut aussi être utile dans d’autres contextes
-          tout au long de la vie d’une femme, comme l’incontinence, les
+          accouchement, mais elle peut aussi être utile dans d'autres contextes
+          tout au long de la vie d'une femme, comme l'incontinence, les
           prolapsus ou les douleurs pelviennes.
         </p>
 
         <h3>Déroulement de la rééducation périnéale :</h3>
         <p>
-          La rééducation commence par un <strong>bilan</strong> afin d’évaluer
+          La rééducation commence par un <strong>bilan</strong> afin d'évaluer
           la problématique et les objectifs de la patiente. Cela peut inclure :
         </p>
         <ul>
-          <li>L’évaluation de symptômes</li>
-          <li>L’utilisation de questionnaires</li>
+          <li>L'évaluation de symptômes</li>
+          <li>L'utilisation de questionnaires</li>
           <li>Un examen clinique pour évaluer le périnée</li>
         </ul>
         <p>
-          Selon le bilan, il peut être nécessaire d’utiliser une sonde
-          intracavitaire permettant l’utilisation de techniques comme le
-          biofeedback ou l’électrostimulation. Les autres techniques peuvent
+          Selon le bilan, il peut être nécessaire d'utiliser une sonde
+          intracavitaire permettant l'utilisation de techniques comme le
+          biofeedback ou l'électrostimulation. Les autres techniques peuvent
           inclure :
         </p>
         <ul>
@@ -153,17 +152,17 @@ const services = [
       <>
         <h3>Ma découverte du yoga et son intégration en kinésithérapie</h3>
         <p>
-          J’ai découvert le yoga pendant le confinement, une période où j’ai
-          appris l’importance de la discipline nécessaire pour progresser dans
-          cette pratique. Cette découverte m’a conduit à suivre une formation
-          de 200 heures au sein de l’école Amba Yoga. Ce cursus m’a permis
-          d’approfondir ma compréhension du yoga et d’en embrasser une vision
+          J'ai découvert le yoga pendant le confinement, une période où j'ai
+          appris l'importance de la discipline nécessaire pour progresser dans
+          cette pratique. Cette découverte m'a conduit à suivre une formation
+          de 200 heures au sein de l'école Amba Yoga. Ce cursus m'a permis
+          d'approfondir ma compréhension du yoga et d'en embrasser une vision
           plus globale, à la fois philosophique et pratique.
         </p>
         <p>
-          Le yoga ne se limite pas à une activité sportive classique. Il s’agit
-          avant tout d’une pratique centrée sur l’écoute de soi, permettant de
-          mieux connaître ses limites et d’apprendre à les respecter.
+          Le yoga ne se limite pas à une activité sportive classique. Il s'agit
+          avant tout d'une pratique centrée sur l'écoute de soi, permettant de
+          mieux connaître ses limites et d'apprendre à les respecter.
         </p>
 
         <h3>Yoga et kinésithérapie : une complémentarité évidente</h3>
@@ -178,11 +177,11 @@ const services = [
           <li>Renforcer la souplesse</li>
           <li>
             Gérer la douleur, notamment dans des pathologies chroniques comme
-            l’endométriose
+            l'endométriose
           </li>
         </ul>
         <p>
-          Certaines postures de yoga s’intègrent parfaitement dans les
+          Certaines postures de yoga s'intègrent parfaitement dans les
           protocoles de rééducation, offrant aux patients un outil pour se
           reconnecter à leur corps et accompagner leur guérison.
         </p>
