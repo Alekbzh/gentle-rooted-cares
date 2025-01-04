@@ -25,15 +25,35 @@ _iub.csConfiguration = {"siteId":3882999,"cookiePolicyId":98928534,"lang":"fr","
     <meta name="description" content="Camille Mazzolini Kinésithérapeute spécialisée en périnéologie, rééducation abdominale et périnéale, diastasis, yoga pré et post natal.Pluneret et Vannes" />
     <meta name="author" content="Camille Mazzolini" />
     <meta property="og:image" content="/og-image.png" />
+    <style>
+      .title-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .title-container h1 {
+        margin: 0;
+        font-size: 2rem;
+      }
+
+      .title-container img {
+        width: 75%; /* Réduction à 75% de la taille initiale */
+        max-width: 300px; /* Taille maximale en pixels */
+        height: auto; /* Maintient les proportions */
+      }
+    </style>
   </head>
 
   <body>
     <div id="root"></div>
-    <img
-        src="/public/bassin.jpeg"
-        alt="rééducation périnéale"
-        style="max-width: 100%; height: auto; display: block; margin: 0 auto;"
-      />
+      <div class="title-container">
+        <h1>Camille Mazzolini Kinésithérapeute</h1>
+        <img
+          src="/public/bassin.jpeg"
+          alt="rééducation périnéqle"
+        />
+      </div>
     </div>
     <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
     <script type="module" src="/src/main.tsx"></script>
