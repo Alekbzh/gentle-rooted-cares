@@ -148,43 +148,47 @@ const services = [
     id: "yoga",
     title: "Yoga",
     fullDescription: (
-      <>
-        <h3>Ma découverte du yoga et son intégration en kinésithérapie</h3>
-        <p>
-          J'ai découvert le yoga pendant le confinement, une période où j'ai
-          appris l'importance de la discipline nécessaire pour progresser dans
-          cette pratique. Cette découverte m'a conduit à suivre une formation
-          de 200 heures au sein de l'école Amba Yoga. Ce cursus m'a permis
-          d'approfondir ma compréhension du yoga et d'en embrasser une vision
-          plus globale, à la fois philosophique et pratique.
-        </p>
-        <p>
-          Le yoga ne se limite pas à une activité sportive classique. Il s'agit
-          avant tout d'une pratique centrée sur l'écoute de soi, permettant de
-          mieux connaître ses limites et d'apprendre à les respecter.
-        </p>
+      <div className="space-y-6">
+        <section>
+          <h2 className="text-2xl font-serif font-medium mb-4">Ma découverte du yoga et son intégration en kinésithérapie</h2>
+          <p className="mb-4">
+            J'ai découvert le yoga pendant le confinement, une période où j'ai
+            appris l'importance de la discipline nécessaire pour progresser dans
+            cette pratique. Cette découverte m'a conduit à suivre une formation
+            de 200 heures au sein de l'école Amba Yoga. Ce cursus m'a permis
+            d'approfondir ma compréhension du yoga et d'en embrasser une vision
+            plus globale, à la fois philosophique et pratique.
+          </p>
+          <p className="mb-4">
+            Le yoga ne se limite pas à une activité sportive classique. Il s'agit
+            avant tout d'une pratique centrée sur l'écoute de soi, permettant de
+            mieux connaître ses limites et d'apprendre à les respecter.
+          </p>
+        </section>
 
-        <h3>Yoga et kinésithérapie : une complémentarité évidente</h3>
-        <p>
-          La kinésithérapie se concentre sur la restauration des fonctions
-          physiques, tandis que le yoga adopte une approche holistique
-          combinant mouvements physiques, respiration, et méditation. Cette
-          complémentarité est bénéfique pour :
-        </p>
-        <ul>
-          <li>Améliorer la mobilité</li>
-          <li>Renforcer la souplesse</li>
-          <li>
-            Gérer la douleur, notamment dans des pathologies chroniques comme
-            l'endométriose
-          </li>
-        </ul>
-        <p>
-          Certaines postures de yoga s'intègrent parfaitement dans les
-          protocoles de rééducation, offrant aux patients un outil pour se
-          reconnecter à leur corps et accompagner leur guérison.
-        </p>
-      </>
+        <section>
+          <h2 className="text-2xl font-serif font-medium mb-4">Yoga et kinésithérapie : une complémentarité évidente</h2>
+          <p className="mb-4">
+            La kinésithérapie se concentre sur la restauration des fonctions
+            physiques, tandis que le yoga adopte une approche holistique
+            combinant mouvements physiques, respiration, et méditation. Cette
+            complémentarité est bénéfique pour :
+          </p>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Améliorer la mobilité</li>
+            <li>Renforcer la souplesse</li>
+            <li>
+              Gérer la douleur, notamment dans des pathologies chroniques comme
+              l'endométriose
+            </li>
+          </ul>
+          <p className="mt-4">
+            Certaines postures de yoga s'intègrent parfaitement dans les
+            protocoles de rééducation, offrant aux patients un outil pour se
+            reconnecter à leur corps et accompagner leur guérison.
+          </p>
+        </section>
+      </div>
     ),
   },
   {
