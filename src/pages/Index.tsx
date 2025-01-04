@@ -43,9 +43,9 @@ const Index = () => {
               À propos
             </h2>
             <p className="text-lg text-gray-700 mb-8">
-            Camille Mazzolini, masseur-kinésithérapeute diplômée d’État, spécialisée en pelvi-périnéologie.<br /> Ce domaine m’a passionnée dès le début de ma carrière, et il est rapidement devenu le cœur de mon orientation professionnelle.<br />
-            Afin d’approfondir mes compétences, j’ai suivi plusieurs formations spécialisées en pelvi-périnéologie, tout en élargissant ma prise en charge à une approche plus globale.<br /> J’intègre notamment le complexe lombo-abdomino-pelvien et m’appuie sur les bienfaits du yoga, tant sur le plan physique, à travers les postures (asanas), que psychique, pour une gestion améliorée des douleurs lombo-pelviennes.<br />
-            J’ai à cœur d’accompagner les femmes dans leur rééducation périnéale, leur bien-être global et leur retour au sport, en leur proposant un suivi personnalisé et bienveillant.
+              Camille Mazzolini, masseur-kinésithérapeute diplômée d'État, spécialisée en pelvi-périnéologie.<br /> Ce domaine m'a passionnée dès le début de ma carrière, et il est rapidement devenu le cœur de mon orientation professionnelle.<br />
+              Afin d'approfondir mes compétences, j'ai suivi plusieurs formations spécialisées en pelvi-périnéologie, tout en élargissant ma prise en charge à une approche plus globale.<br /> J'intègre notamment le complexe lombo-abdomino-pelvien et m'appuie sur les bienfaits du yoga, tant sur le plan physique, à travers les postures (asanas), que psychique, pour une gestion améliorée des douleurs lombo-pelviennes.<br />
+              J'ai à cœur d'accompagner les femmes dans leur rééducation périnéale, leur bien-être global et leur retour au sport, en leur proposant un suivi personnalisé et bienveillant.
             </p>
           </div>
         </div>
@@ -100,7 +100,7 @@ const Index = () => {
                 </div>
               </div>
             </div>
-            <div className="h-[400px] w-full rounded-lg overflow-hidden">
+            <div className="h-[400px] w-full rounded-lg overflow-hidden shadow-lg">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d21501.89786661053!2d-2.7500000000000004!3d47.6652167!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48101c1b8a6585e5%3A0x3b9b1914f96c1b46!2s2%20Rue%20Lo%C3%AFc%20Caradec%2C%2056400%20Pluneret!5e0!3m2!1sfr!2sfr!4v1710799027252!5m2!1sfr!2sfr"
                 width="100%"
@@ -109,8 +109,9 @@ const Index = () => {
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                className="rounded-lg">
-              </iframe>
+                title="Cabinet de kinésithérapie"
+                className="rounded-lg"
+              />
             </div>
           </div>
         </div>
