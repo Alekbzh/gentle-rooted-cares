@@ -25,36 +25,43 @@ _iub.csConfiguration = {"siteId":3882999,"cookiePolicyId":98928534,"lang":"fr","
     <meta name="description" content="Camille Mazzolini Kinésithérapeute spécialisée en périnéologie, rééducation abdominale et périnéale, diastasis, yoga pré et post natal.Pluneret et Vannes" />
     <meta name="author" content="Camille Mazzolini" />
     <meta property="og:image" content="/og-image.png" />
+       <!-- Style CSS -->
     <style>
-      .title-container {
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      .header-container {
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
+        text-align: center;
+        margin-top: 20px;
       }
 
-      .title-container h1 {
-        margin: 0;
+      .header-container h1 {
+        flex: 1;
         font-size: 2rem;
+        margin: 0;
       }
 
-      .title-container img {
-        width: 75%; /* Réduction à 75% de la taille initiale */
-        max-width: 300px; /* Taille maximale en pixels */
-        height: auto; /* Maintient les proportions */
+      .header-container img {
+        flex: 0 0 auto;
+        max-width: 75%;
+        height: auto;
+        margin-left: 20px;
       }
     </style>
   </head>
 
   <body>
-    <div id="root"></div>
-      <div class="title-container">
-        <h1>Camille Mazzolini Kinésithérapeute</h1>
-        <img
-          src="/public/bassin.jpeg"
-          alt="rééducation périnéqle"
-        />
-      </div>
+    <div class="header-container">
+      <h1>Camille Mazzolini Kinésithérapeute</h1>
+      <img src="/path-to-your-image.jpg" alt="Camille Mazzolini" />
     </div>
+    <div id="root"></div>
     <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
     <script type="module" src="/src/main.tsx"></script>
   </body>
