@@ -135,9 +135,42 @@ const services = [
     ),
   },
   {
-    id: "reeducation-post-partum",
-    title: "Rééducation du post-partum",
-    fullDescription: <p>En cours</p>,
+    id: "Grossesse et post-partum",
+    title: "Grossesse et post-partum",
+    fullDescription: (
+        <div className="space-y-6">
+        <section>
+          <h2 className="text-2xl font-serif font-medium mb-4">À qui s'adresse la rééducation pendant la grossesse et en quoi cela consiste ?</h2>
+          <p className="mb-4">
+            L'objectif est de préparer le corps aux changements physiologiques et mécaniques liés à la grossesse et à l'accouchement.
+          </p>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Prévention et gestion des douleurs :</li>
+            <li>Travail respiratoire :</li>
+            <li>Renforcement musculaire doux :</li>
+            <li>Drainage lymphatique :</li>
+            <li>Mobilité du bassin :</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2 className="text-2xl font-serif font-medium mb-4">À qui s'adresse la rééducation post-partum (après l'accouchement) et en quoi cela consiste ?</h2>
+          <p className="mb-4">
+            L'objectif est de rétablir les fonctions musculaires et de prévenir les troubles à long terme (incontinences, descentes d'organes, douleurs).
+          </p>
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Rééducation périnéale (manuelle ou avec électrostimulation et biofeedback) :</li>
+            <li>Rééducation abdominale :</li>
+            <li>Correction postulaire :</li>
+            <li>Accompagnement dans la reprise progressive de l'activité physique :</li>
+            <li>Drainage et mobilisation :</li>
+          </ul>
+        </section>
+          
+          <p className="mt-4">
+            La rééducation est souvent réalisée sur prescription médicale, notamment en post-partum, et peut être remboursée en partie ou en totalité selon les actes.
+          </p>
+ ),
   },
   {
     id: "soins-bien-etre",
@@ -196,6 +229,52 @@ const services = [
     title: "Rééducation après le cancer du sein",
     fullDescription: <p>En cours</p>,
   },
+
+  {
+    id: "reeducation masculine",
+    title: "Rééducation masculine",
+    fullDescription: <p>En cours</p>,
+  },
+
+  {
+    id: "douleurs pelviennes",
+    title: "Douleurs pelviennes",
+    fullDescription: (
+<div className="space-y-6">
+        <section>
+          <h2 className="text-2xl font-serif font-medium mb-4">A qui s’adresse la rééducation ?</h2>
+          <p className="mb-4">
+          Que vous ayez reçu un diagnostic de douleurs pelviennes chroniques (vestibulodynie, endométriose, névralgie…) ou que vous ressentiez des symptômes inexpliqués, la kinésithérapie peut vous aider.
+          </p>
+          <ul className="list-disc pl-6 space-y-2">
+Elle permet d'améliorer la gestion de divers troubles, notamment : 
+<li>Douleurs persistantes au niveau du périnée, du bas-ventre, du vagin, du rectum ou du coccyx.</li>
+<li>Sensation de brûlure, de décharge électrique ou de lourdeur dans la région pelvienne.</li>
+<li>Douleurs aggravées par la position assise prolongée, le sport, les rapports sexuels (dyspareunie), le cycle menstruel ou la défécation.</li>
+<li>Troubles urinaires : envies fréquentes, douleurs à la miction, difficulté à vider la vessie.</li>
+<li>Troubles digestifs : constipation, douleurs lors de la défécation.</li>            
+          </ul>
+          </section>
+<section>            
+<h2 className="text-2xl font-serif font-medium mb-4">Quelle est la prise en charge en kinésithérapie ? </h2>
+          <p className="mb-4">
+          La prise en charge vise à permettre l'autogestion de la douleur, améliorer la mobilité tissulaire et articulaire et améliorer la qualité de vie des patientes.
+          </p>
+   <ul className="list-disc pl-6 space-y-2">
+Techniques utilisées : 
+<li>Relaxation et étirements du plancher pelvien et des muscles environnants (fessiers, psoas, adducteurs).</li>
+<li>Massage et thérapie manuelle pour relâcher les tensions myofasciales et traiter les points trigger.</li>
+<li>Biofeedback : utilisation de sondes pour apprendre à mieux relâcher ou contracter les muscles pelviens.</li>
+<li>Électrostimulation pour inhiber la douleur et favoriser la décontraction musculaire.</li>
+<li>Mobilisation des articulations du bassin (sacrum, coccyx, lombaires) pour améliorer la posture et libérer les tensions.</li>
+<li>Rééducation respiratoire et abdominale.</li>
+<li>Travail postural.</li>    
+Un travail en collaboration avec d’autres professionnels de santé est souvent essentiel en raison de l’impact psychologique pouvant accompagner ces douleurs, telles que l’anxiété, la fatigue, l’isolement social ou les troubles du sommeil.     
+          </ul>
+          </section>
+  
+  },
+          
 ];
 
 export default Service;
