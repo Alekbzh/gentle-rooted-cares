@@ -162,6 +162,7 @@ const Index = () => {
       </footer>
     </div>
   );
+},
 
 
 const services = [
