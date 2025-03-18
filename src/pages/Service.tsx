@@ -145,11 +145,11 @@ const services = [
             L'objectif est de préparer le corps aux changements physiologiques et mécaniques liés à la grossesse et à l'accouchement.
           </p>
           <ul className="list-disc pl-6 space-y-2">
-            <li>Prévention et gestion des douleurs :</li>
-            <li>Travail respiratoire :</li>
-            <li>Renforcement musculaire doux :</li>
-            <li>Drainage lymphatique :</li>
-            <li>Mobilité du bassin :</li>
+            <li>Prévention et gestion des douleurs</li>
+            <li>Travail respiratoire</li>
+            <li>Renforcement musculaire doux</li>
+            <li>Drainage lymphatique</li>
+            <li>Mobilité du bassin</li>
           </ul>
         </section>
 
@@ -160,16 +160,17 @@ const services = [
           </p>
           <ul className="list-disc pl-6 space-y-2">
             <li>Rééducation périnéale (manuelle ou avec électrostimulation et biofeedback) :</li>
-            <li>Rééducation abdominale :</li>
-            <li>Correction postulaire :</li>
-            <li>Accompagnement dans la reprise progressive de l'activité physique :</li>
-            <li>Drainage et mobilisation :</li>
+            <li>Rééducation abdominale</li>
+            <li>Correction postulaire</li>
+            <li>Accompagnement dans la reprise progressive de l'activité physique</li>
+            <li>Drainage et mobilisation</li>
           </ul>
         </section>
           
           <p className="mt-4">
             La rééducation est souvent réalisée sur prescription médicale, notamment en post-partum, et peut être remboursée en partie ou en totalité selon les actes.
           </p>
+      </div>
  ),
   },
   {
@@ -272,6 +273,7 @@ Techniques utilisées :
 Un travail en collaboration avec d’autres professionnels de santé est souvent essentiel en raison de l’impact psychologique pouvant accompagner ces douleurs, telles que l’anxiété, la fatigue, l’isolement social ou les troubles du sommeil.     
           </ul>
           </section>
+  </div>
   ),
   },
           
