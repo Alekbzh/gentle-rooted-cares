@@ -135,7 +135,7 @@ const services = [
     ),
   },
   {
-    id: "Grossesse et post-partum",
+    id: "grossesse et post-partum",
     title: "Grossesse et post-partum",
     fullDescription: (
         <div className="space-y-6">
