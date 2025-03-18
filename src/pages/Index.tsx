@@ -126,7 +126,7 @@ const services = [
     title: "Rééducation abdomino-périnéale",
   },
   {
-    id: "Grossesse et post-partum",
+    id: "grossesse et post-partum",
     title: "Grossesse et post-partum",
   },
   {
@@ -142,7 +142,7 @@ const services = [
     title: "Rééducation après le cancer du sein",
   },
   {
-    id: "Reeducation masculine",
+    id: "reeducation masculine",
     title: "Rééducation masculine",
   },
   
