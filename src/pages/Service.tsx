@@ -272,7 +272,7 @@ Techniques utilisées :
 Un travail en collaboration avec d’autres professionnels de santé est souvent essentiel en raison de l’impact psychologique pouvant accompagner ces douleurs, telles que l’anxiété, la fatigue, l’isolement social ou les troubles du sommeil.     
           </ul>
           </section>
-  
+  ),
   },
           
 ];
