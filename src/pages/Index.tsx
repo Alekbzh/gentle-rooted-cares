@@ -119,6 +119,50 @@ const Index = () => {
     </div>
   );
 };
+ {/* Footer with Partner Logos */}
+      <footer className="py-8 bg-gray-50">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex flex-col items-end justify-end">
+            <p className="text-sm text-gray-600 mb-4">Sites partenaires :</p>
+            <div className="flex items-center space-x-6">
+              <a 
+                href="https://www.bkpp.fr/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center hover:opacity-80 transition-opacity"
+              >
+                <div className="bg-white p-2 rounded-lg shadow-sm flex items-center justify-center">
+                  <img 
+                    src="https://www.bkpp.fr/wp-content/uploads/2021/06/LOGO-BKPP-300px-2.png" 
+                    alt="BKPP Logo" 
+                    className="h-12 w-auto"
+                  />
+                </div>
+                <ExternalLink className="ml-1 w-4 h-4 text-gray-500" />
+              </a>
+              
+              <a 
+                href="https://endofrance.org/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex items-center hover:opacity-80 transition-opacity"
+              >
+                <div className="bg-white p-2 rounded-lg shadow-sm flex items-center justify-center">
+                  <img 
+                    src="https://endofrance.org/wp-content/uploads/2019/07/Logo-EndoFrance.png" 
+                    alt="Endofrance Logo" 
+                    className="h-12 w-auto"
+                  />
+                </div>
+                <ExternalLink className="ml-1 w-4 h-4 text-gray-500" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  );
+
 
 const services = [
   {
