@@ -124,28 +124,31 @@ const services = [
   {
     id: "reeducation-abdomino-perineale",
     title: "Rééducation abdomino-périnéale",
-    description: "Accompagnement personnalisé pour la rééducation du périnée, adapté à vos besoins spécifiques.",
   },
   {
-    id: "reeducation-post-partum",
-    title: "Rééducation du post-partum",
-    description: "Accompagnement et soins adaptés pour une récupération optimale après l'accouchement.",
+    id: "Grossesse et post-partum",
+    title: "Grossesse et post-partum",
   },
   {
     id: "soins-bien-etre",
     title: "Soins bien-être",
-    description: "Des soins personnalisés pour votre bien-être physique et mental, dans une approche globale et bienveillante.",
   },
   {
     id: "yoga",
     title: "Yoga",
-    description: "Séances de yoga adaptées à vos besoins, alliant postures, respiration et relaxation pour un équilibre corps-esprit.",
   },
   {
     id: "reeducation-cancer-sein",
     title: "Rééducation après le cancer du sein",
-    description: "Accompagnement spécialisé pour la rééducation post-cancer du sein, avec une approche douce et personnalisée.",
   },
+  {
+    id: "Reeducation masculine",
+    title: "Rééducation masculine",
+  },
+  
+  {
+    id: "douleurs pelviennes",
+    title: "Douleurs pelviennes",
 ];
 
 export default Index;
