@@ -149,6 +149,7 @@ const services = [
   {
     id: "douleurs pelviennes",
     title: "Douleurs pelviennes",
+  }, 
 ];
 
 export default Index;
