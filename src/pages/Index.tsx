@@ -102,7 +102,7 @@ const Index = () => {
             </div>
             <div className="h-[400px] w-full rounded-lg overflow-hidden shadow-lg">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2698.5!2d-2.7594!3d47.6586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48101e7c5c5c5c5d%3A0x5c5c5c5c5c5c5c5c!2s10%20Rue%20Docteur%20Joseph%20Audic%2C%2056000%20Vannes!5e0!3m2!1sfr!2sfr!4v1710799027252!5m2!1sfr!2sfr"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2698.3!2d-2.759433!3d47.658628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48101e7f8e8e8e8f%3A0x8e8e8e8e8e8e8e8e!2sMedicentre%20-%20Centre%20du%20T%C3%A9n%C3%A9nio%2C%2010%20Rue%20Docteur%20Joseph%20Audic%2C%2056000%20Vannes!5e0!3m2!1sfr!2sfr!4v1710799027252!5m2!1sfr!2sfr"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
