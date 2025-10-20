@@ -125,31 +125,37 @@ const services = [
   {
     id: "reeducation-abdomino-perineale",
     title: "Rééducation abdomino-périnéale",
+    description: "Renforcement du périnée et de la sangle abdominale",
   },
   {
     id: "grossesse et post-partum",
     title: "Grossesse et post-partum",
+    description: "Accompagnement pendant et après la grossesse",
   },
   {
     id: "soins-bien-etre",
     title: "Soins bien-être",
+    description: "Massages et soins relaxants personnalisés",
   },
   {
     id: "yoga",
     title: "Yoga",
+    description: "Séances de yoga adaptées à vos besoins",
   },
   {
     id: "reeducation-cancer-sein",
     title: "Rééducation après le cancer du sein",
+    description: "Accompagnement post-cancer pour retrouver mobilité et confort",
   },
   {
     id: "reeducation masculine",
     title: "Rééducation masculine",
+    description: "Soins périnéaux adaptés aux hommes",
   },
-  
   {
     id: "douleurs pelviennes",
     title: "Douleurs pelviennes",
+    description: "Traitement des douleurs du bassin et du périnée",
   }, 
 ];
 
