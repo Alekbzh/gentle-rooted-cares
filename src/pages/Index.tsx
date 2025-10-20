@@ -62,9 +62,9 @@ const Index = () => {
               <div className="flex items-start space-x-4">
                 <MapPin className="w-6 h-6 text-primary" />
                 <div>
-                  <h3 className="font-medium text-gray-900">Adresses</h3>
-                  <p className="text-gray-700">2 Rue Loïc Caradec, 56400 Pluneret</p>
-                  <p className="text-gray-700">10 Rue Docteur Joseph Audic, 56000 Vannes</p>
+                  <h3 className="font-medium text-gray-900">Adresse</h3>
+                  <p className="text-gray-700">Medicentre - Centre du Ténénio</p>
+                  <p className="text-gray-700">10 rue Dr Joseph Audic, 56000 Vannes</p>
                 </div>
               </div>
               <div className="flex items-start space-x-4">
@@ -102,14 +102,14 @@ const Index = () => {
             </div>
             <div className="h-[400px] w-full rounded-lg overflow-hidden shadow-lg">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d21501.89786661053!2d-2.7500000000000004!3d47.6652167!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48101c1b8a6585e5%3A0x3b9b1914f96c1b46!2s2%20Rue%20Lo%C3%AFc%20Caradec%2C%2056400%20Pluneret!5e0!3m2!1sfr!2sfr!4v1710799027252!5m2!1sfr!2sfr"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2698.5!2d-2.7594!3d47.6586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48101e7c5c5c5c5d%3A0x5c5c5c5c5c5c5c5c!2s10%20Rue%20Docteur%20Joseph%20Audic%2C%2056000%20Vannes!5e0!3m2!1sfr!2sfr!4v1710799027252!5m2!1sfr!2sfr"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Cabinet de kinésithérapie"
+                title="Cabinet de kinésithérapie - Medicentre Vannes"
                 className="rounded-lg"
               />
             </div>
